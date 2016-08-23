@@ -335,15 +335,15 @@
 
 
 /*===========================
-Swiper AMD Export
+mbSlider AMD Export
 ===========================*/
 if (typeof(module) !== 'undefined')
 {
-    module.exports = window.Swiper;
+    module.exports = window.mbSlider;
 }
 else if (typeof define === 'function' && define.amd) {
     define([], function () {
         'use strict';
-        return window.Swiper;
+        return window.mbSlider;
     });
 }
