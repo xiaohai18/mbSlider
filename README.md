@@ -24,9 +24,9 @@ Written by: hishion
 ```html
 <div class="mb-container">
     <div class="mb-wrapper">
-        <div class="mb-slide mb-slide1">1</div>
-        <div class="mb-slide mb-slide2">2</div>
-        <div class="mb-slide mb-slide3">3</div>
+        <div class="mb-slide">1</div>
+        <div class="mb-slide">2</div>
+        <div class="mb-slide">3</div>
     </div>
 </div>
 ```
