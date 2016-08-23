@@ -1,4 +1,5 @@
 (function(window, undefined){
+    'use strict';
     /*
         移动端焦点图
         Date: 2016-8-23
@@ -331,3 +332,18 @@
     }
 
 }(window));
+
+
+/*===========================
+Swiper AMD Export
+===========================*/
+if (typeof(module) !== 'undefined')
+{
+    module.exports = window.Swiper;
+}
+else if (typeof define === 'function' && define.amd) {
+    define([], function () {
+        'use strict';
+        return window.Swiper;
+    });
+}
