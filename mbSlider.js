@@ -17,11 +17,11 @@
             //方向 : 'vertical||horizontal'
             direction: 'horizontal',
             /*
-                是否显示左右按钮 。暂不支持，待完善
+                是否显示左右按钮
             */
             isControl: false,
             /*
-                是否显示分页按钮 。暂不支持，待完善
+                是否显示分页按钮
             */
             isPages: false,
 
@@ -37,10 +37,11 @@
             tapEnd: function(){
                //console.log('tapEnd!')
             },
-
+            //运动开始
             aniStart: function(){
                 //console.log('aniStart!')
             },
+            //运动结束
             aniEnd: function(){
                 //console.log('aniEnd!')
             },

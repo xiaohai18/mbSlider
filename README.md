@@ -53,9 +53,9 @@ var app = new mbSlider({
     duration: 300,
     //方向 : 'vertical||horizontal'
     direction: 'horizontal',
-    //是否显示左右按钮 。暂不支持，待完善
+    //是否显示左右按钮
     isControl: false,
-    //是否显示分页按钮 。暂不支持，待完善
+    //是否显示分页按钮
     isPages: false,
     //滑动开始
     tapStart: function(){
