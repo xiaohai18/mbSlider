@@ -13,9 +13,9 @@ Written by: hishion
 
 
 ```html
-<!-- hiSlider CSS file -->
+<!-- mbSlider CSS file -->
 <link href="mbSlider.css" rel="stylesheet" />
-<!-- hiSlider Javascript file -->
+<!-- mbSlider Javascript file -->
 <script src="mbSlider.js"></script>
 ```
 
