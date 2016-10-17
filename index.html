@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>mbSlider无依赖 移动端焦点图效果 </title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="mbSlider.css">
+    <link rel="stylesheet" href="css/mbSlider.min.css">
 </head>
 <body>
 
@@ -14,10 +14,16 @@
     margin: 0;
     padding: 0;
 }
+h1,
 h3{
     padding: 10px 6px;
     font: 500 16px/1.5 'Microsoft YaHei', 'Arial';
     background: #efefef;
+}
+h1{
+    font-size: 21px;
+    background: #333;
+    color: #fff;
 }
 .mb-container{
     height: 200px;
@@ -44,10 +50,14 @@ h3{
     background: #ccc;
 }
 
+.mark{
+    padding: 10px;
+    margin-top: 10px;
+}
+
 </style>
 
-
-
+<h1>移动端 无缝滚动轮播插件</h1>
 <h3>
     mbSlider 移动端焦点图效果 水平方向
 </h3>
@@ -73,8 +83,12 @@ h3{
     </div>
 </div>
 
+<p class="mark">
+原生js、轻量级、无依赖插件，请在移动端测试!  <a href="https://github.com/hishion/mbSlider"  target="_blank">github</a> </p>
 
-<script type="text/javascript" src="mbSlider.js?1"></script>
+
+
+<script type="text/javascript" src="js/mbSlider.min.js"></script>
 
 <script type="text/javascript">
 
@@ -82,13 +96,13 @@ var app = new mbSlider({
     container: '.mb-container',
     wrapper: '.mb-wrapper',
     itmes: '.mb-slide',
-    autoplay: 4500,
+    autoplay: 5000,
     isPages: true
 });
 
 var app2 = new mbSlider({
     container: '.mb-container2',
-    autoplay: 4500,
+    autoplay: 14500,
     isPages: false,
     direction: 'vertical',
     isControl: true
