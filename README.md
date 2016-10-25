@@ -1,6 +1,6 @@
 
 #mbSlider.js
-##移动端 焦点图插件，无依赖，轻巧
+##移动端 无缝轮播插件，无依赖，轻巧
 
 
 在线演示：[http://www.byex.cn/mbSlider](http://www.byex.cn/mbSlider/)
