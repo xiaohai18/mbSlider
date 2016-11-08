@@ -248,7 +248,7 @@
             获得当前索引
         */
         getCurIndex: function(){
-            return parseInt(this.distance/this.boxViewSize);
+            return this.curIndex;
         },
         /*
             获得子项数目
